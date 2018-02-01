@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btnSingle"
+        android:text="SINGLE"
+        android:layout_margin="1dp"
+        android:background="@color/colorPrimaryDark"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnMulti"
+        android:text="MULTIPLE"
+        android:layout_margin="1dp"
+        android:background="@color/colorPrimaryDark"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
